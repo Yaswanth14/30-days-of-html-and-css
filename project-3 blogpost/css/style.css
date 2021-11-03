@@ -47,6 +47,7 @@ Author: Christopher Castig | @castig
      width: 700px;
      padding: 30px 20px 30px 20px;
      float:left;
+     margin: 5px;
 }
 
 #sidebar{
@@ -54,6 +55,7 @@ Author: Christopher Castig | @castig
      width: 400px;
      padding: 20px;
      float: left;
+     margin: 5px;
 }
 
 /*----------------------------------------------------------------------------- 
