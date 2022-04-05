@@ -17,7 +17,7 @@ const p2 = {
 // const p2Display = document.querySelector('#p2Display')
 
 const resetButton = document.querySelector('#reset');
-winningScoreSelect = document.querySelector('#playto');
+const winningScoreSelect = document.querySelector('#playto');
 
 // let p1Score = 0;
 // let p2Score = 0;
@@ -28,7 +28,7 @@ function updateScores(player, opponent)
 {
    if(!isGameOver){
       player.score += 1;
-      if(player===winningScore)
+      if(player.score===winningScore)
         {
          isGameOver = true;
          player.display.classList.add('has-text-success');
